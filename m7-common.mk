@@ -43,7 +43,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/sbin/choice_fn:recovery/root/sbin/choice_fn \
     $(LOCAL_PATH)/recovery/sbin/offmode_charging:recovery/root/sbin/offmode_charging \
     $(LOCAL_PATH)/recovery/sbin/detect_key:recovery/root/sbin/detect_key \
-    $(LOCAL_PATH)/recovery/sbin/power_test:recovery/root/sbin/power_test
+    $(LOCAL_PATH)/recovery/sbin/power_test:recovery/root/sbin/power_test \
+    $(LOCAL_PATH)/recovery/root/init.recovery.m7.rc:recovery/root/init.recovery.m7.rc
 
 # QC thermald config
 PRODUCT_COPY_FILES += $(LOCAL_PATH)/configs/thermald.conf:system/etc/thermald.conf
